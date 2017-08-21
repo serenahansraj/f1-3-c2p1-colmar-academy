@@ -1,0 +1,433 @@
+html {
+  font-family: "Asap", sans-serif;
+}
+
+html, body{
+  padding: 0px;
+  margin: 0px;
+}
+
+.mobile {
+  display: none;
+}
+
+/*header*/
+
+header {
+  position: relative;
+  width: 100%;
+  height: 64px;
+  vertical-align: middle;
+}
+
+.logo {
+  margin-left: 24px;
+  margin-top: 16px;
+  display: inline-block;
+}
+
+.logo p {
+  line-height: 32px;
+  margin-top: -36px;
+  margin-left: 32px;
+}
+
+.linklist {
+  display: inline-block;
+  float: right;
+  margin-right: 24px;
+  margin-top: 20px;
+}
+
+a {
+  margin-left: 16px;
+  color: #5A5757;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7F8ECD;
+}
+
+/*jumbotron/ intro section*/
+
+.jumbotron {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+  color: #5A5757;
+}
+
+.jumbotron img {
+  width: 56%;
+  height: 100%;
+  padding: 32px 24px;
+}
+
+.jumbotron .sidebar {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 24px;
+  line-height: 200%;
+  font-size: 20px;
+}
+
+.sidebar {
+  display:flex;
+  flex-direction: column;
+}
+
+.button {
+  display: block;
+  color: white;
+  background-color: #5A5757;
+  padding: 0px;
+  text-align: center;
+  margin-right: 16px;
+}
+
+.button:hover {
+  background-color: #7F8ECD;
+  /*#3D54B2*/
+}
+
+.button h2 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/*practice/ events section*/
+
+.practice {
+  display: flex;
+  flex-direction: row;
+  color: #5A5757;
+}
+
+.practice img {
+  width: 93%;
+  padding: 32px 24px;
+  margin: 0px;
+  display: block;
+}
+
+.caption {
+  margin-left: 24px;
+  margin-right: 0px;
+  word-wrap: break-word;
+  width: 91%;
+}
+
+.pracimg {
+  padding-bottom: 32px;
+  margin: 0px;
+  width: 60%;
+}
+
+.pracimg h1 {
+  padding-bottom: 24px;
+}
+
+.events {
+  flex-direction: column;
+  width: 40%;
+}
+
+.practice .sidebar{
+  padding: 16px;
+  flex-direction: row;
+}
+
+.practice .sidebar:hover {
+  background-color: rgba(61, 84, 178, 0.5);
+}
+
+.smallside {
+  flex-direction: column;
+  width: 65%;
+  margin-top: -32px;
+  margin-left: 16px;
+}
+
+.smallside p {
+  margin: 0px;
+  padding: 8px 0px;
+}
+
+.smallside a {
+  margin-left: 0px;
+  color: #5A5757;
+}
+
+.sidebar img {
+  flex-direction: column;
+  width: 35%;
+  height: auto;
+  margin: 16px;
+  padding: 0px;
+}
+
+/*course list section*/
+
+.learning {
+  background-color: lightgray;
+  padding: 32px 72px;
+}
+
+.learning h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #5A5757;
+}
+
+.courselist {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.topwidgets {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottomwidgets {
+  display: flex;
+  flex-direction: row;
+}
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-bottom: 32px;
+  margin: 32px;
+}
+
+.widget img {
+  height: auto;
+  width: 100%;
+}
+
+.des {
+  margin-left: 16px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  color: gray;
+  word-wrap: break-word;
+}
+
+.des h2 {
+  font-weight: 400;
+  color: #5A5757;
+}
+
+.des p {
+  margin-top: 8px;
+}
+
+/*thesis exhibit section*/
+
+.thesis {
+  display: flex;
+  flex-direction: row;
+  color: #5A5757;
+  padding-bottom: 32px;
+}
+
+.exhibit h1 {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding: 0px;
+}
+
+.exhibit video {
+  margin: 0px 24px 24px 24px;
+  padding: 0px;
+  width: 92%;
+}
+
+.exhibit .sidebar {
+  display: flex;
+  flex-direction: row;
+}
+
+.thesisvideo {
+  width: 60%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.thesislist {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-top: -16px;
+}
+
+.thesislist .sidebar:hover {
+  background-color: rgba(61, 84, 178, 0.5);
+}
+
+.sidebar img {
+  height: auto;
+  width: 35%;
+  height: 35%;
+  margin: 16px;
+}
+
+.smallside {
+  margin-top: 24px;
+  width: 65%;
+}
+
+/*footer section*/
+
+footer {
+  padding-top: 16px;
+  padding-left: 24px;
+  padding-bottom: 64px;
+  border-top: 1px solid lightgray;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  display: block;
+  float: right;
+}
+
+/*mobile version*/
+
+@media only screen and (max-width: 480px), (orientation: portrait){
+
+  .desktop{
+    display: none;
+  }
+
+  .mobile{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+/*nav mobile*/
+
+  nav .mobile {
+    height: 64px;
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav img {
+    height: auto;
+    width: 48px;
+    display: inline-block;
+  }
+
+/*jumbotron mobile*/
+
+  .jumbotron {
+    flex-direction: column;
+  }
+
+  .jumbotron img {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .jumbotron .sidebar h1 {
+    margin: 32px 16px;
+  }
+
+  .jumbotron .sidebar h2 {
+    margin-left: 16px;
+    margin-bottom: 24px;
+  }
+
+  .button {
+    margin: 24px 16px;
+    padding: 0px;
+  }
+
+/*practice mobile*/
+
+  .mobpractice img {
+    width: 95%;
+    margin: 16px;
+  }
+
+  .smallside {
+    margin-bottom: 64px;
+    color: #5A5757;
+  }
+
+  .smallside h2 {
+    font-weight: lighter;
+  }
+
+/*learning mobile*/
+
+  .moblearning {
+    border: 1px solid lightgray;
+    color: #5A5757;
+    padding-left: 16px;
+    padding-bottom: 32px;
+  }
+
+  .moblearning h1 {
+    text-align: center;
+    margin: 32px 0px;
+    margin-bottom: 16px;
+  }
+
+  .moblearning h2 {
+    font-weight: normal;
+    padding: 24px 32px 24px 16px;
+    background-color: #D3D3D4;
+    width: 88%;
+  }
+
+  .moblearning h2:hover {
+    background-color: #7F8ECD;
+    color: white;
+  }
+
+/*exhibit mobile*/
+
+  .mobexhibit {
+    padding-top: 16px;
+    padding-bottom: 24px;
+  }
+
+  .mobexhibit h1 {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  video{
+    width: 100%;
+  }
+
+/*copyright mobile*/
+
+  .left {
+    margin: 16px 16px;
+  }
+
+  .right {
+    display: none;
+  }
+
+}
